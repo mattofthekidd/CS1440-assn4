@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="Assn4"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/Users/kidma/CLionProjects/CS1440/Assn4/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/kidma/CLionProjects/CS1440/Assn4/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/kidma/CLionProjects/CS1440/Assn4/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/kidma/CLionProjects/CS1440/Assn4/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/kidma/CLionProjects/CS1440/Assn4/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/Users/kidma/CLionProjects/CS1440/Assn4/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/kidma/CLionProjects/CS1440/Assn4/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/kidma/CLionProjects/CS1440/Assn4/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/kidma/CLionProjects/CS1440/Assn4/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/kidma/CLionProjects/CS1440/Assn4/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/Users/kidma/CLionProjects/CS1440/Assn4/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/kidma/CLionProjects/CS1440/Assn4/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/kidma/CLionProjects/CS1440/Assn4/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/kidma/CLionProjects/CS1440/Assn4/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/kidma/CLionProjects/CS1440/Assn4/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Test">
+				<Option output="/Users/kidma/CLionProjects/CS1440/Assn4/cmake-build-debug/Test" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/kidma/CLionProjects/CS1440/Assn4/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/clang/8.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/kidma/CLionProjects/CS1440/Assn4/cmake-build-debug/Makefile&quot;  VERBOSE=1 Test"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/kidma/CLionProjects/CS1440/Assn4/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/kidma/CLionProjects/CS1440/Assn4/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/kidma/CLionProjects/CS1440/Assn4/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Test/fast">
+				<Option output="/Users/kidma/CLionProjects/CS1440/Assn4/cmake-build-debug/Test" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/kidma/CLionProjects/CS1440/Assn4/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/clang/8.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/kidma/CLionProjects/CS1440/Assn4/cmake-build-debug/Makefile&quot;  VERBOSE=1 Test/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/kidma/CLionProjects/CS1440/Assn4/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/kidma/CLionProjects/CS1440/Assn4/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/kidma/CLionProjects/CS1440/Assn4/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Bingo">
+				<Option output="/Users/kidma/CLionProjects/CS1440/Assn4/cmake-build-debug/Bingo" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/kidma/CLionProjects/CS1440/Assn4/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/clang/8.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/kidma/CLionProjects/CS1440/Assn4/cmake-build-debug/Makefile&quot;  VERBOSE=1 Bingo"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/kidma/CLionProjects/CS1440/Assn4/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/kidma/CLionProjects/CS1440/Assn4/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/kidma/CLionProjects/CS1440/Assn4/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Bingo/fast">
+				<Option output="/Users/kidma/CLionProjects/CS1440/Assn4/cmake-build-debug/Bingo" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/kidma/CLionProjects/CS1440/Assn4/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/clang/8.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/kidma/CLionProjects/CS1440/Assn4/cmake-build-debug/Makefile&quot;  VERBOSE=1 Bingo/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/kidma/CLionProjects/CS1440/Assn4/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/kidma/CLionProjects/CS1440/Assn4/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/kidma/CLionProjects/CS1440/Assn4/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/Users/kidma/CLionProjects/CS1440/Assn4/Card.cpp">
+			<Option target="Test"/>
+			<Option target="Bingo"/>
+		</Unit>
+		<Unit filename="/Users/kidma/CLionProjects/CS1440/Assn4/Card.hpp">
+			<Option target="Test"/>
+			<Option target="Bingo"/>
+		</Unit>
+		<Unit filename="/Users/kidma/CLionProjects/CS1440/Assn4/Deck.cpp">
+			<Option target="Test"/>
+			<Option target="Bingo"/>
+		</Unit>
+		<Unit filename="/Users/kidma/CLionProjects/CS1440/Assn4/Deck.hpp">
+			<Option target="Test"/>
+			<Option target="Bingo"/>
+		</Unit>
+		<Unit filename="/Users/kidma/CLionProjects/CS1440/Assn4/Menu.cpp">
+			<Option target="Test"/>
+			<Option target="Bingo"/>
+		</Unit>
+		<Unit filename="/Users/kidma/CLionProjects/CS1440/Assn4/Menu.h">
+			<Option target="Test"/>
+			<Option target="Bingo"/>
+		</Unit>
+		<Unit filename="/Users/kidma/CLionProjects/CS1440/Assn4/MenuOption.cpp">
+			<Option target="Test"/>
+			<Option target="Bingo"/>
+		</Unit>
+		<Unit filename="/Users/kidma/CLionProjects/CS1440/Assn4/MenuOption.h">
+			<Option target="Test"/>
+			<Option target="Bingo"/>
+		</Unit>
+		<Unit filename="/Users/kidma/CLionProjects/CS1440/Assn4/Testing/MenuOptionTester.cpp">
+			<Option target="Test"/>
+		</Unit>
+		<Unit filename="/Users/kidma/CLionProjects/CS1440/Assn4/Testing/MenuOptionTester.h">
+			<Option target="Test"/>
+		</Unit>
+		<Unit filename="/Users/kidma/CLionProjects/CS1440/Assn4/Testing/MenuTester.cpp">
+			<Option target="Test"/>
+		</Unit>
+		<Unit filename="/Users/kidma/CLionProjects/CS1440/Assn4/Testing/MenuTester.h">
+			<Option target="Test"/>
+		</Unit>
+		<Unit filename="/Users/kidma/CLionProjects/CS1440/Assn4/Testing/testMain.cpp">
+			<Option target="Test"/>
+		</Unit>
+		<Unit filename="/Users/kidma/CLionProjects/CS1440/Assn4/UserInterface.cpp">
+			<Option target="Test"/>
+			<Option target="Bingo"/>
+		</Unit>
+		<Unit filename="/Users/kidma/CLionProjects/CS1440/Assn4/UserInterface.h">
+			<Option target="Test"/>
+			<Option target="Bingo"/>
+		</Unit>
+		<Unit filename="/Users/kidma/CLionProjects/CS1440/Assn4/main.cpp">
+			<Option target="Bingo"/>
+		</Unit>
+		<Unit filename="/Users/kidma/CLionProjects/CS1440/Assn4/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

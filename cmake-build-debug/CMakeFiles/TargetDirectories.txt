@@ -1,0 +1,4 @@
+/Users/kidma/CLionProjects/CS1440/Assn4/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/kidma/CLionProjects/CS1440/Assn4/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/Users/kidma/CLionProjects/CS1440/Assn4/cmake-build-debug/CMakeFiles/Test.dir
+/Users/kidma/CLionProjects/CS1440/Assn4/cmake-build-debug/CMakeFiles/Bingo.dir
