@@ -6,29 +6,24 @@
 #define ASSN4_CARD_HPP
 
 #include <vector>
-#include <random>
-#include <algorithm>
-#include <cstdlib>
+
 #include <iomanip>
 #include <sstream>
+#include "NumberList.hpp"
 
 class Card {
 public:
-    Card(int cardSize, int maxNum);
+    Card(int cardSize, const NumberList& list);
     int getValue(int index) const;
     int getGridSize() const;
     int getRowSize() const;
+
     friend std::ostream& operator<<(std::ostream& out, const Card& card);
 
 private:
-    std::vector<int> m_row;
-    std::vector<int> m_numberList;
-    // 3-15
+    std::vector<int> m_values;
     int m_gridSize;
     int m_rowSize;
-    int m_maxNum;
-
-    void createRandomNumberList();
 
 };
 

@@ -9,24 +9,24 @@
 /Users/kidma/CLionProjects/CS1440/Assn4/Card.cpp
 Card.hpp
 /Users/kidma/CLionProjects/CS1440/Assn4/Card.hpp
+NumberList.hpp
+/Users/kidma/CLionProjects/CS1440/Assn4/NumberList.hpp
 
 /Users/kidma/CLionProjects/CS1440/Assn4/Card.hpp
 vector
--
-random
--
-algorithm
--
-cstdlib
 -
 iomanip
 -
 sstream
 -
+NumberList.hpp
+/Users/kidma/CLionProjects/CS1440/Assn4/NumberList.hpp
 
 /Users/kidma/CLionProjects/CS1440/Assn4/Deck.cpp
 Deck.hpp
 /Users/kidma/CLionProjects/CS1440/Assn4/Deck.hpp
+NumberList.hpp
+/Users/kidma/CLionProjects/CS1440/Assn4/NumberList.hpp
 
 /Users/kidma/CLionProjects/CS1440/Assn4/Deck.hpp
 vector
@@ -56,6 +56,20 @@ MenuOption.h
 
 /Users/kidma/CLionProjects/CS1440/Assn4/MenuOption.h
 string
+-
+
+/Users/kidma/CLionProjects/CS1440/Assn4/NumberList.cpp
+NumberList.hpp
+/Users/kidma/CLionProjects/CS1440/Assn4/NumberList.hpp
+
+/Users/kidma/CLionProjects/CS1440/Assn4/NumberList.hpp
+vector
+-
+random
+-
+algorithm
+-
+cstdlib
 -
 
 /Users/kidma/CLionProjects/CS1440/Assn4/UserInterface.cpp

@@ -4,26 +4,17 @@
 
 
 #include "Card.hpp"
+#include "NumberList.hpp"
 
-Card::Card(int cardSize, int maxNum) :
-m_maxNum(maxNum),
+Card::Card(int cardSize, const NumberList& list) :
 m_gridSize(cardSize * cardSize),
 m_rowSize(cardSize)
 {
     int i = 0;
-    createRandomNumberList();
     for(auto row = 0; row < m_gridSize; row++) {
         i++;
-        m_row.push_back(m_numberList[i]);
+        m_values.push_back(list.getValue(i));
     }
-    m_numberList.clear();
-}
-
-void Card::createRandomNumberList() {
-    for (auto i = 0; i < m_maxNum - 1; i++) {
-        m_numberList.push_back(i + 1);
-    }
-    std::random_shuffle(m_numberList.begin(), m_numberList.end());
 }
 
 std::ostream& operator<<(std::ostream& out, const Card& card) {
@@ -56,7 +47,7 @@ std::ostream& operator<<(std::ostream& out, const Card& card) {
 }
 
 int Card::getValue(int index) const {
-    return m_row.at(index);
+    return m_values.at(index);
 }
 
 int Card::getGridSize() const {

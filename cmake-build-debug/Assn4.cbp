@@ -150,6 +150,14 @@
 			<Option target="Test"/>
 			<Option target="Bingo"/>
 		</Unit>
+		<Unit filename="/Users/kidma/CLionProjects/CS1440/Assn4/NumberList.cpp">
+			<Option target="Test"/>
+			<Option target="Bingo"/>
+		</Unit>
+		<Unit filename="/Users/kidma/CLionProjects/CS1440/Assn4/NumberList.hpp">
+			<Option target="Test"/>
+			<Option target="Bingo"/>
+		</Unit>
 		<Unit filename="/Users/kidma/CLionProjects/CS1440/Assn4/Testing/MenuOptionTester.cpp">
 			<Option target="Test"/>
 		</Unit>

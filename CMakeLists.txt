@@ -7,6 +7,7 @@ set(SOURCE_FILES
         UserInterface.cpp UserInterface.h
         Deck.cpp Deck.hpp
         Card.cpp Card.hpp
+        NumberList.cpp NumberList.hpp
         MenuOption.cpp MenuOption.h
         Menu.cpp Menu.h)
 

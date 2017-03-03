@@ -3,6 +3,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/Test.dir/UserInterface.cpp.o"
   "CMakeFiles/Test.dir/Deck.cpp.o"
   "CMakeFiles/Test.dir/Card.cpp.o"
+  "CMakeFiles/Test.dir/NumberList.cpp.o"
   "CMakeFiles/Test.dir/MenuOption.cpp.o"
   "CMakeFiles/Test.dir/Menu.cpp.o"
   "CMakeFiles/Test.dir/Testing/MenuTester.cpp.o"

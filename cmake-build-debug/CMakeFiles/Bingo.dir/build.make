@@ -153,9 +153,33 @@ CMakeFiles/Bingo.dir/Card.cpp.o.provides: CMakeFiles/Bingo.dir/Card.cpp.o.requir
 CMakeFiles/Bingo.dir/Card.cpp.o.provides.build: CMakeFiles/Bingo.dir/Card.cpp.o
 
 
+CMakeFiles/Bingo.dir/NumberList.cpp.o: CMakeFiles/Bingo.dir/flags.make
+CMakeFiles/Bingo.dir/NumberList.cpp.o: ../NumberList.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/kidma/CLionProjects/CS1440/Assn4/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/Bingo.dir/NumberList.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Bingo.dir/NumberList.cpp.o -c /Users/kidma/CLionProjects/CS1440/Assn4/NumberList.cpp
+
+CMakeFiles/Bingo.dir/NumberList.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Bingo.dir/NumberList.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/kidma/CLionProjects/CS1440/Assn4/NumberList.cpp > CMakeFiles/Bingo.dir/NumberList.cpp.i
+
+CMakeFiles/Bingo.dir/NumberList.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Bingo.dir/NumberList.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/kidma/CLionProjects/CS1440/Assn4/NumberList.cpp -o CMakeFiles/Bingo.dir/NumberList.cpp.s
+
+CMakeFiles/Bingo.dir/NumberList.cpp.o.requires:
+
+.PHONY : CMakeFiles/Bingo.dir/NumberList.cpp.o.requires
+
+CMakeFiles/Bingo.dir/NumberList.cpp.o.provides: CMakeFiles/Bingo.dir/NumberList.cpp.o.requires
+	$(MAKE) -f CMakeFiles/Bingo.dir/build.make CMakeFiles/Bingo.dir/NumberList.cpp.o.provides.build
+.PHONY : CMakeFiles/Bingo.dir/NumberList.cpp.o.provides
+
+CMakeFiles/Bingo.dir/NumberList.cpp.o.provides.build: CMakeFiles/Bingo.dir/NumberList.cpp.o
+
+
 CMakeFiles/Bingo.dir/MenuOption.cpp.o: CMakeFiles/Bingo.dir/flags.make
 CMakeFiles/Bingo.dir/MenuOption.cpp.o: ../MenuOption.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/kidma/CLionProjects/CS1440/Assn4/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/Bingo.dir/MenuOption.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/kidma/CLionProjects/CS1440/Assn4/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/Bingo.dir/MenuOption.cpp.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Bingo.dir/MenuOption.cpp.o -c /Users/kidma/CLionProjects/CS1440/Assn4/MenuOption.cpp
 
 CMakeFiles/Bingo.dir/MenuOption.cpp.i: cmake_force
@@ -179,7 +203,7 @@ CMakeFiles/Bingo.dir/MenuOption.cpp.o.provides.build: CMakeFiles/Bingo.dir/MenuO
 
 CMakeFiles/Bingo.dir/Menu.cpp.o: CMakeFiles/Bingo.dir/flags.make
 CMakeFiles/Bingo.dir/Menu.cpp.o: ../Menu.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/kidma/CLionProjects/CS1440/Assn4/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/Bingo.dir/Menu.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/kidma/CLionProjects/CS1440/Assn4/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/Bingo.dir/Menu.cpp.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Bingo.dir/Menu.cpp.o -c /Users/kidma/CLionProjects/CS1440/Assn4/Menu.cpp
 
 CMakeFiles/Bingo.dir/Menu.cpp.i: cmake_force
@@ -207,6 +231,7 @@ Bingo_OBJECTS = \
 "CMakeFiles/Bingo.dir/UserInterface.cpp.o" \
 "CMakeFiles/Bingo.dir/Deck.cpp.o" \
 "CMakeFiles/Bingo.dir/Card.cpp.o" \
+"CMakeFiles/Bingo.dir/NumberList.cpp.o" \
 "CMakeFiles/Bingo.dir/MenuOption.cpp.o" \
 "CMakeFiles/Bingo.dir/Menu.cpp.o"
 
@@ -217,11 +242,12 @@ Bingo: CMakeFiles/Bingo.dir/main.cpp.o
 Bingo: CMakeFiles/Bingo.dir/UserInterface.cpp.o
 Bingo: CMakeFiles/Bingo.dir/Deck.cpp.o
 Bingo: CMakeFiles/Bingo.dir/Card.cpp.o
+Bingo: CMakeFiles/Bingo.dir/NumberList.cpp.o
 Bingo: CMakeFiles/Bingo.dir/MenuOption.cpp.o
 Bingo: CMakeFiles/Bingo.dir/Menu.cpp.o
 Bingo: CMakeFiles/Bingo.dir/build.make
 Bingo: CMakeFiles/Bingo.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/kidma/CLionProjects/CS1440/Assn4/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Linking CXX executable Bingo"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/kidma/CLionProjects/CS1440/Assn4/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Linking CXX executable Bingo"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Bingo.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -233,6 +259,7 @@ CMakeFiles/Bingo.dir/requires: CMakeFiles/Bingo.dir/main.cpp.o.requires
 CMakeFiles/Bingo.dir/requires: CMakeFiles/Bingo.dir/UserInterface.cpp.o.requires
 CMakeFiles/Bingo.dir/requires: CMakeFiles/Bingo.dir/Deck.cpp.o.requires
 CMakeFiles/Bingo.dir/requires: CMakeFiles/Bingo.dir/Card.cpp.o.requires
+CMakeFiles/Bingo.dir/requires: CMakeFiles/Bingo.dir/NumberList.cpp.o.requires
 CMakeFiles/Bingo.dir/requires: CMakeFiles/Bingo.dir/MenuOption.cpp.o.requires
 CMakeFiles/Bingo.dir/requires: CMakeFiles/Bingo.dir/Menu.cpp.o.requires
 

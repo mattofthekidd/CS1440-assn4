@@ -3,6 +3,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/Bingo.dir/UserInterface.cpp.o"
   "CMakeFiles/Bingo.dir/Deck.cpp.o"
   "CMakeFiles/Bingo.dir/Card.cpp.o"
+  "CMakeFiles/Bingo.dir/NumberList.cpp.o"
   "CMakeFiles/Bingo.dir/MenuOption.cpp.o"
   "CMakeFiles/Bingo.dir/Menu.cpp.o"
   "Bingo.pdb"

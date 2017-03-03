@@ -3,12 +3,14 @@
 //
 
 #include "Deck.hpp"
+#include "NumberList.hpp"
 
 Deck::Deck(int cardSize, int deckSize, int maxNum) :
 m_deckSize(deckSize)
 {
     for(auto i = 0; i < deckSize; i++) {
-        Card card(cardSize, maxNum);
+        NumberList list(maxNum);
+        Card card(cardSize, list);
         m_deck.push_back(card);
     }
 }

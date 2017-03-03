@@ -256,6 +256,36 @@ MenuOption.cpp.s:
 	$(MAKE) -f CMakeFiles/Bingo.dir/build.make CMakeFiles/Bingo.dir/MenuOption.cpp.s
 .PHONY : MenuOption.cpp.s
 
+NumberList.o: NumberList.cpp.o
+
+.PHONY : NumberList.o
+
+# target to build an object file
+NumberList.cpp.o:
+	$(MAKE) -f CMakeFiles/Test.dir/build.make CMakeFiles/Test.dir/NumberList.cpp.o
+	$(MAKE) -f CMakeFiles/Bingo.dir/build.make CMakeFiles/Bingo.dir/NumberList.cpp.o
+.PHONY : NumberList.cpp.o
+
+NumberList.i: NumberList.cpp.i
+
+.PHONY : NumberList.i
+
+# target to preprocess a source file
+NumberList.cpp.i:
+	$(MAKE) -f CMakeFiles/Test.dir/build.make CMakeFiles/Test.dir/NumberList.cpp.i
+	$(MAKE) -f CMakeFiles/Bingo.dir/build.make CMakeFiles/Bingo.dir/NumberList.cpp.i
+.PHONY : NumberList.cpp.i
+
+NumberList.s: NumberList.cpp.s
+
+.PHONY : NumberList.s
+
+# target to generate assembly for a file
+NumberList.cpp.s:
+	$(MAKE) -f CMakeFiles/Test.dir/build.make CMakeFiles/Test.dir/NumberList.cpp.s
+	$(MAKE) -f CMakeFiles/Bingo.dir/build.make CMakeFiles/Bingo.dir/NumberList.cpp.s
+.PHONY : NumberList.cpp.s
+
 Testing/MenuOptionTester.o: Testing/MenuOptionTester.cpp.o
 
 .PHONY : Testing/MenuOptionTester.o
@@ -416,6 +446,9 @@ help:
 	@echo "... MenuOption.o"
 	@echo "... MenuOption.i"
 	@echo "... MenuOption.s"
+	@echo "... NumberList.o"
+	@echo "... NumberList.i"
+	@echo "... NumberList.s"
 	@echo "... Testing/MenuOptionTester.o"
 	@echo "... Testing/MenuOptionTester.i"
 	@echo "... Testing/MenuOptionTester.s"

@@ -153,9 +153,33 @@ CMakeFiles/Test.dir/Card.cpp.o.provides: CMakeFiles/Test.dir/Card.cpp.o.requires
 CMakeFiles/Test.dir/Card.cpp.o.provides.build: CMakeFiles/Test.dir/Card.cpp.o
 
 
+CMakeFiles/Test.dir/NumberList.cpp.o: CMakeFiles/Test.dir/flags.make
+CMakeFiles/Test.dir/NumberList.cpp.o: ../NumberList.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/kidma/CLionProjects/CS1440/Assn4/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/Test.dir/NumberList.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Test.dir/NumberList.cpp.o -c /Users/kidma/CLionProjects/CS1440/Assn4/NumberList.cpp
+
+CMakeFiles/Test.dir/NumberList.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Test.dir/NumberList.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/kidma/CLionProjects/CS1440/Assn4/NumberList.cpp > CMakeFiles/Test.dir/NumberList.cpp.i
+
+CMakeFiles/Test.dir/NumberList.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Test.dir/NumberList.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/kidma/CLionProjects/CS1440/Assn4/NumberList.cpp -o CMakeFiles/Test.dir/NumberList.cpp.s
+
+CMakeFiles/Test.dir/NumberList.cpp.o.requires:
+
+.PHONY : CMakeFiles/Test.dir/NumberList.cpp.o.requires
+
+CMakeFiles/Test.dir/NumberList.cpp.o.provides: CMakeFiles/Test.dir/NumberList.cpp.o.requires
+	$(MAKE) -f CMakeFiles/Test.dir/build.make CMakeFiles/Test.dir/NumberList.cpp.o.provides.build
+.PHONY : CMakeFiles/Test.dir/NumberList.cpp.o.provides
+
+CMakeFiles/Test.dir/NumberList.cpp.o.provides.build: CMakeFiles/Test.dir/NumberList.cpp.o
+
+
 CMakeFiles/Test.dir/MenuOption.cpp.o: CMakeFiles/Test.dir/flags.make
 CMakeFiles/Test.dir/MenuOption.cpp.o: ../MenuOption.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/kidma/CLionProjects/CS1440/Assn4/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/Test.dir/MenuOption.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/kidma/CLionProjects/CS1440/Assn4/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/Test.dir/MenuOption.cpp.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Test.dir/MenuOption.cpp.o -c /Users/kidma/CLionProjects/CS1440/Assn4/MenuOption.cpp
 
 CMakeFiles/Test.dir/MenuOption.cpp.i: cmake_force
@@ -179,7 +203,7 @@ CMakeFiles/Test.dir/MenuOption.cpp.o.provides.build: CMakeFiles/Test.dir/MenuOpt
 
 CMakeFiles/Test.dir/Menu.cpp.o: CMakeFiles/Test.dir/flags.make
 CMakeFiles/Test.dir/Menu.cpp.o: ../Menu.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/kidma/CLionProjects/CS1440/Assn4/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/Test.dir/Menu.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/kidma/CLionProjects/CS1440/Assn4/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/Test.dir/Menu.cpp.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Test.dir/Menu.cpp.o -c /Users/kidma/CLionProjects/CS1440/Assn4/Menu.cpp
 
 CMakeFiles/Test.dir/Menu.cpp.i: cmake_force
@@ -203,7 +227,7 @@ CMakeFiles/Test.dir/Menu.cpp.o.provides.build: CMakeFiles/Test.dir/Menu.cpp.o
 
 CMakeFiles/Test.dir/Testing/MenuTester.cpp.o: CMakeFiles/Test.dir/flags.make
 CMakeFiles/Test.dir/Testing/MenuTester.cpp.o: ../Testing/MenuTester.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/kidma/CLionProjects/CS1440/Assn4/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/Test.dir/Testing/MenuTester.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/kidma/CLionProjects/CS1440/Assn4/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/Test.dir/Testing/MenuTester.cpp.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Test.dir/Testing/MenuTester.cpp.o -c /Users/kidma/CLionProjects/CS1440/Assn4/Testing/MenuTester.cpp
 
 CMakeFiles/Test.dir/Testing/MenuTester.cpp.i: cmake_force
@@ -227,7 +251,7 @@ CMakeFiles/Test.dir/Testing/MenuTester.cpp.o.provides.build: CMakeFiles/Test.dir
 
 CMakeFiles/Test.dir/Testing/MenuOptionTester.cpp.o: CMakeFiles/Test.dir/flags.make
 CMakeFiles/Test.dir/Testing/MenuOptionTester.cpp.o: ../Testing/MenuOptionTester.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/kidma/CLionProjects/CS1440/Assn4/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/Test.dir/Testing/MenuOptionTester.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/kidma/CLionProjects/CS1440/Assn4/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/Test.dir/Testing/MenuOptionTester.cpp.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Test.dir/Testing/MenuOptionTester.cpp.o -c /Users/kidma/CLionProjects/CS1440/Assn4/Testing/MenuOptionTester.cpp
 
 CMakeFiles/Test.dir/Testing/MenuOptionTester.cpp.i: cmake_force
@@ -255,6 +279,7 @@ Test_OBJECTS = \
 "CMakeFiles/Test.dir/UserInterface.cpp.o" \
 "CMakeFiles/Test.dir/Deck.cpp.o" \
 "CMakeFiles/Test.dir/Card.cpp.o" \
+"CMakeFiles/Test.dir/NumberList.cpp.o" \
 "CMakeFiles/Test.dir/MenuOption.cpp.o" \
 "CMakeFiles/Test.dir/Menu.cpp.o" \
 "CMakeFiles/Test.dir/Testing/MenuTester.cpp.o" \
@@ -267,13 +292,14 @@ Test: CMakeFiles/Test.dir/Testing/testMain.cpp.o
 Test: CMakeFiles/Test.dir/UserInterface.cpp.o
 Test: CMakeFiles/Test.dir/Deck.cpp.o
 Test: CMakeFiles/Test.dir/Card.cpp.o
+Test: CMakeFiles/Test.dir/NumberList.cpp.o
 Test: CMakeFiles/Test.dir/MenuOption.cpp.o
 Test: CMakeFiles/Test.dir/Menu.cpp.o
 Test: CMakeFiles/Test.dir/Testing/MenuTester.cpp.o
 Test: CMakeFiles/Test.dir/Testing/MenuOptionTester.cpp.o
 Test: CMakeFiles/Test.dir/build.make
 Test: CMakeFiles/Test.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/kidma/CLionProjects/CS1440/Assn4/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Linking CXX executable Test"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/kidma/CLionProjects/CS1440/Assn4/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Linking CXX executable Test"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Test.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -285,6 +311,7 @@ CMakeFiles/Test.dir/requires: CMakeFiles/Test.dir/Testing/testMain.cpp.o.require
 CMakeFiles/Test.dir/requires: CMakeFiles/Test.dir/UserInterface.cpp.o.requires
 CMakeFiles/Test.dir/requires: CMakeFiles/Test.dir/Deck.cpp.o.requires
 CMakeFiles/Test.dir/requires: CMakeFiles/Test.dir/Card.cpp.o.requires
+CMakeFiles/Test.dir/requires: CMakeFiles/Test.dir/NumberList.cpp.o.requires
 CMakeFiles/Test.dir/requires: CMakeFiles/Test.dir/MenuOption.cpp.o.requires
 CMakeFiles/Test.dir/requires: CMakeFiles/Test.dir/Menu.cpp.o.requires
 CMakeFiles/Test.dir/requires: CMakeFiles/Test.dir/Testing/MenuTester.cpp.o.requires
