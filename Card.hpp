@@ -17,13 +17,16 @@ public:
     int getValue(int index) const;
     int getGridSize() const;
     int getRowSize() const;
-
+    std::string getOutput() const;
     friend std::ostream& operator<<(std::ostream& out, const Card& card);
 
 private:
     std::vector<int> m_values;
     int m_gridSize;
     int m_rowSize;
+    std::string m_output;
+
+    void createOutput();
 
 };
 

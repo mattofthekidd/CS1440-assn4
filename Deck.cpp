@@ -31,7 +31,8 @@ void Deck::print(std::ostream& out)
 void Deck::print(std::ostream& out, int cardIndex)
 {
     out << "Card #" << cardIndex+1 << "\n";
-    out << m_deck.at(cardIndex);
+//    out << m_deck.at(cardIndex);
+    out << m_deck.at(cardIndex).getOutput();
     // TODO: Implement
 }
 
