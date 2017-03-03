@@ -12,12 +12,14 @@
 
 class NumberList {
 public:
-    NumberList(int maxNum);
+    NumberList(int maxNum, int cardSize);
 
     int getValue(int index) const;
 
 private:
     int m_maxNum;
+    int m_minRange;
+    int m_maxRange;
     std::vector<int> m_numberList;
 };
 

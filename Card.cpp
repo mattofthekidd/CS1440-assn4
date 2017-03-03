@@ -17,36 +17,6 @@ m_rowSize(cardSize)
     }
     createOutput();
 }
-
-std::ostream& operator<<(std::ostream& out, const Card& card) {
-    auto rowSize = card.getRowSize();
-    auto gridSize = card.getGridSize();
-    auto outside = 0;
-    std::string lineBreak = "+----";
-    std::stringstream line;
-    for(auto i = 0; i <= rowSize; i++) {
-        if((i) == rowSize) {
-            line << "+\n";
-        }
-        else {
-            line << lineBreak;
-        }
-    }
-
-    while(outside < gridSize) {
-        out << line.str();
-        for(auto row = 0; row < rowSize; row++) {
-            if(outside == gridSize) break;
-            out << std::left << std::setw(1) << "|"
-                << std::right << std::setw(3) << card.getValue(outside) << " ";
-            outside++;
-        }
-        out << "|\n";
-    }
-    out << line.str();
-    return out;
-}
-
 void Card::createOutput() {
     std::ostringstream out;
     auto outside = 0;
@@ -77,14 +47,6 @@ void Card::createOutput() {
 
 int Card::getValue(int index) const {
     return m_values.at(index);
-}
-
-int Card::getGridSize() const {
-    return m_gridSize;
-}
-
-int Card::getRowSize() const {
-    return m_rowSize;
 }
 
 std::string Card::getOutput() const {

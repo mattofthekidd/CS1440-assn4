@@ -15,10 +15,7 @@ class Card {
 public:
     Card(int cardSize, const NumberList& list);
     int getValue(int index) const;
-    int getGridSize() const;
-    int getRowSize() const;
     std::string getOutput() const;
-    friend std::ostream& operator<<(std::ostream& out, const Card& card);
 
 private:
     std::vector<int> m_values;
@@ -29,8 +26,5 @@ private:
     void createOutput();
 
 };
-
-std::ostream& operator<<(std::ostream& out, const Card& card);
-
 
 #endif //ASSN4_CARD_HPP

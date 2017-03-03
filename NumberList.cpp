@@ -4,11 +4,13 @@
 
 #include "NumberList.hpp"
 
-NumberList::NumberList(int maxNum) :
-    m_maxNum(maxNum)
+NumberList::NumberList(int maxNum, int cardSize) :
+    m_maxNum(maxNum),
+    m_minRange(2*cardSize*cardSize),
+    m_maxRange(2*m_minRange)
 {
-    for (auto i = 0; i < m_maxNum - 1; i++) {
-        m_numberList.push_back(i + 1);
+    for (auto i = m_minRange; i < m_maxRange; i++) {
+        m_numberList.push_back(i);
     }
     std::random_shuffle(m_numberList.begin(), m_numberList.end());
 }

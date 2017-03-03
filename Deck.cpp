@@ -9,7 +9,7 @@ Deck::Deck(int cardSize, int deckSize, int maxNum) :
 m_deckSize(deckSize)
 {
     for(auto i = 0; i < deckSize; i++) {
-        NumberList list(maxNum);
+        NumberList list(maxNum, cardSize);
         Card card(cardSize, list);
         m_deck.push_back(card);
     }
