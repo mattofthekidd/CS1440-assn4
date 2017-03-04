@@ -20,6 +20,17 @@ CMakeFiles/Test.dir/MenuOption.cpp.o
 CMakeFiles/Test.dir/NumberList.cpp.o
  /Users/kidma/CLionProjects/CS1440/Assn4/NumberList.cpp
  /Users/kidma/CLionProjects/CS1440/Assn4/NumberList.hpp
+CMakeFiles/Test.dir/Testing/CardTester.cpp.o
+ /Users/kidma/CLionProjects/CS1440/Assn4/Card.hpp
+ /Users/kidma/CLionProjects/CS1440/Assn4/NumberList.hpp
+ /Users/kidma/CLionProjects/CS1440/Assn4/Testing/CardTester.cpp
+ /Users/kidma/CLionProjects/CS1440/Assn4/Testing/CardTester.hpp
+CMakeFiles/Test.dir/Testing/DeckTester.cpp.o
+ /Users/kidma/CLionProjects/CS1440/Assn4/Card.hpp
+ /Users/kidma/CLionProjects/CS1440/Assn4/Deck.hpp
+ /Users/kidma/CLionProjects/CS1440/Assn4/NumberList.hpp
+ /Users/kidma/CLionProjects/CS1440/Assn4/Testing/DeckTester.cpp
+ /Users/kidma/CLionProjects/CS1440/Assn4/Testing/DeckTester.hpp
 CMakeFiles/Test.dir/Testing/MenuOptionTester.cpp.o
  /Users/kidma/CLionProjects/CS1440/Assn4/Testing/MenuOptionTester.cpp
  /Users/kidma/CLionProjects/CS1440/Assn4/Testing/MenuOptionTester.h
@@ -29,9 +40,16 @@ CMakeFiles/Test.dir/Testing/MenuTester.cpp.o
  /Users/kidma/CLionProjects/CS1440/Assn4/Testing/MenuTester.h
  /Users/kidma/CLionProjects/CS1440/Assn4/cs1440s17-shared/Bingo/Menu.h
  /Users/kidma/CLionProjects/CS1440/Assn4/cs1440s17-shared/Bingo/MenuOption.h
+CMakeFiles/Test.dir/Testing/NumberListTester.cpp.o
+ /Users/kidma/CLionProjects/CS1440/Assn4/NumberList.hpp
+ /Users/kidma/CLionProjects/CS1440/Assn4/Testing/NumberListTester.cpp
+ /Users/kidma/CLionProjects/CS1440/Assn4/Testing/NumberListTester.hpp
 CMakeFiles/Test.dir/Testing/testMain.cpp.o
+ /Users/kidma/CLionProjects/CS1440/Assn4/Testing/CardTester.hpp
+ /Users/kidma/CLionProjects/CS1440/Assn4/Testing/DeckTester.hpp
  /Users/kidma/CLionProjects/CS1440/Assn4/Testing/MenuOptionTester.h
  /Users/kidma/CLionProjects/CS1440/Assn4/Testing/MenuTester.h
+ /Users/kidma/CLionProjects/CS1440/Assn4/Testing/NumberListTester.hpp
  /Users/kidma/CLionProjects/CS1440/Assn4/Testing/testMain.cpp
 CMakeFiles/Test.dir/UserInterface.cpp.o
  /Users/kidma/CLionProjects/CS1440/Assn4/Card.hpp

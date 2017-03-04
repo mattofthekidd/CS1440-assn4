@@ -18,3 +18,7 @@ NumberList::NumberList(int maxNum, int cardSize) :
 int NumberList::getValue(int index) const{
     return m_numberList[index];
 }
+
+int NumberList::getSize() const {
+    return m_numberList.size();
+}

@@ -8,6 +8,9 @@ file(REMOVE_RECURSE
   "CMakeFiles/Test.dir/Menu.cpp.o"
   "CMakeFiles/Test.dir/Testing/MenuTester.cpp.o"
   "CMakeFiles/Test.dir/Testing/MenuOptionTester.cpp.o"
+  "CMakeFiles/Test.dir/Testing/CardTester.cpp.o"
+  "CMakeFiles/Test.dir/Testing/NumberListTester.cpp.o"
+  "CMakeFiles/Test.dir/Testing/DeckTester.cpp.o"
   "Test.pdb"
   "Test"
 )

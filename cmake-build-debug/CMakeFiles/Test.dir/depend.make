@@ -20,6 +20,17 @@ CMakeFiles/Test.dir/MenuOption.cpp.o: ../MenuOption.h
 CMakeFiles/Test.dir/NumberList.cpp.o: ../NumberList.cpp
 CMakeFiles/Test.dir/NumberList.cpp.o: ../NumberList.hpp
 
+CMakeFiles/Test.dir/Testing/CardTester.cpp.o: ../Card.hpp
+CMakeFiles/Test.dir/Testing/CardTester.cpp.o: ../NumberList.hpp
+CMakeFiles/Test.dir/Testing/CardTester.cpp.o: ../Testing/CardTester.cpp
+CMakeFiles/Test.dir/Testing/CardTester.cpp.o: ../Testing/CardTester.hpp
+
+CMakeFiles/Test.dir/Testing/DeckTester.cpp.o: ../Card.hpp
+CMakeFiles/Test.dir/Testing/DeckTester.cpp.o: ../Deck.hpp
+CMakeFiles/Test.dir/Testing/DeckTester.cpp.o: ../NumberList.hpp
+CMakeFiles/Test.dir/Testing/DeckTester.cpp.o: ../Testing/DeckTester.cpp
+CMakeFiles/Test.dir/Testing/DeckTester.cpp.o: ../Testing/DeckTester.hpp
+
 CMakeFiles/Test.dir/Testing/MenuOptionTester.cpp.o: ../Testing/MenuOptionTester.cpp
 CMakeFiles/Test.dir/Testing/MenuOptionTester.cpp.o: ../Testing/MenuOptionTester.h
 CMakeFiles/Test.dir/Testing/MenuOptionTester.cpp.o: ../cs1440s17-shared/Bingo/MenuOption.h
@@ -29,8 +40,15 @@ CMakeFiles/Test.dir/Testing/MenuTester.cpp.o: ../Testing/MenuTester.h
 CMakeFiles/Test.dir/Testing/MenuTester.cpp.o: ../cs1440s17-shared/Bingo/Menu.h
 CMakeFiles/Test.dir/Testing/MenuTester.cpp.o: ../cs1440s17-shared/Bingo/MenuOption.h
 
+CMakeFiles/Test.dir/Testing/NumberListTester.cpp.o: ../NumberList.hpp
+CMakeFiles/Test.dir/Testing/NumberListTester.cpp.o: ../Testing/NumberListTester.cpp
+CMakeFiles/Test.dir/Testing/NumberListTester.cpp.o: ../Testing/NumberListTester.hpp
+
+CMakeFiles/Test.dir/Testing/testMain.cpp.o: ../Testing/CardTester.hpp
+CMakeFiles/Test.dir/Testing/testMain.cpp.o: ../Testing/DeckTester.hpp
 CMakeFiles/Test.dir/Testing/testMain.cpp.o: ../Testing/MenuOptionTester.h
 CMakeFiles/Test.dir/Testing/testMain.cpp.o: ../Testing/MenuTester.h
+CMakeFiles/Test.dir/Testing/testMain.cpp.o: ../Testing/NumberListTester.hpp
 CMakeFiles/Test.dir/Testing/testMain.cpp.o: ../Testing/testMain.cpp
 
 CMakeFiles/Test.dir/UserInterface.cpp.o: ../Card.hpp

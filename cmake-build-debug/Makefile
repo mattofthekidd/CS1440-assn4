@@ -286,6 +286,60 @@ NumberList.cpp.s:
 	$(MAKE) -f CMakeFiles/Bingo.dir/build.make CMakeFiles/Bingo.dir/NumberList.cpp.s
 .PHONY : NumberList.cpp.s
 
+Testing/CardTester.o: Testing/CardTester.cpp.o
+
+.PHONY : Testing/CardTester.o
+
+# target to build an object file
+Testing/CardTester.cpp.o:
+	$(MAKE) -f CMakeFiles/Test.dir/build.make CMakeFiles/Test.dir/Testing/CardTester.cpp.o
+.PHONY : Testing/CardTester.cpp.o
+
+Testing/CardTester.i: Testing/CardTester.cpp.i
+
+.PHONY : Testing/CardTester.i
+
+# target to preprocess a source file
+Testing/CardTester.cpp.i:
+	$(MAKE) -f CMakeFiles/Test.dir/build.make CMakeFiles/Test.dir/Testing/CardTester.cpp.i
+.PHONY : Testing/CardTester.cpp.i
+
+Testing/CardTester.s: Testing/CardTester.cpp.s
+
+.PHONY : Testing/CardTester.s
+
+# target to generate assembly for a file
+Testing/CardTester.cpp.s:
+	$(MAKE) -f CMakeFiles/Test.dir/build.make CMakeFiles/Test.dir/Testing/CardTester.cpp.s
+.PHONY : Testing/CardTester.cpp.s
+
+Testing/DeckTester.o: Testing/DeckTester.cpp.o
+
+.PHONY : Testing/DeckTester.o
+
+# target to build an object file
+Testing/DeckTester.cpp.o:
+	$(MAKE) -f CMakeFiles/Test.dir/build.make CMakeFiles/Test.dir/Testing/DeckTester.cpp.o
+.PHONY : Testing/DeckTester.cpp.o
+
+Testing/DeckTester.i: Testing/DeckTester.cpp.i
+
+.PHONY : Testing/DeckTester.i
+
+# target to preprocess a source file
+Testing/DeckTester.cpp.i:
+	$(MAKE) -f CMakeFiles/Test.dir/build.make CMakeFiles/Test.dir/Testing/DeckTester.cpp.i
+.PHONY : Testing/DeckTester.cpp.i
+
+Testing/DeckTester.s: Testing/DeckTester.cpp.s
+
+.PHONY : Testing/DeckTester.s
+
+# target to generate assembly for a file
+Testing/DeckTester.cpp.s:
+	$(MAKE) -f CMakeFiles/Test.dir/build.make CMakeFiles/Test.dir/Testing/DeckTester.cpp.s
+.PHONY : Testing/DeckTester.cpp.s
+
 Testing/MenuOptionTester.o: Testing/MenuOptionTester.cpp.o
 
 .PHONY : Testing/MenuOptionTester.o
@@ -339,6 +393,33 @@ Testing/MenuTester.s: Testing/MenuTester.cpp.s
 Testing/MenuTester.cpp.s:
 	$(MAKE) -f CMakeFiles/Test.dir/build.make CMakeFiles/Test.dir/Testing/MenuTester.cpp.s
 .PHONY : Testing/MenuTester.cpp.s
+
+Testing/NumberListTester.o: Testing/NumberListTester.cpp.o
+
+.PHONY : Testing/NumberListTester.o
+
+# target to build an object file
+Testing/NumberListTester.cpp.o:
+	$(MAKE) -f CMakeFiles/Test.dir/build.make CMakeFiles/Test.dir/Testing/NumberListTester.cpp.o
+.PHONY : Testing/NumberListTester.cpp.o
+
+Testing/NumberListTester.i: Testing/NumberListTester.cpp.i
+
+.PHONY : Testing/NumberListTester.i
+
+# target to preprocess a source file
+Testing/NumberListTester.cpp.i:
+	$(MAKE) -f CMakeFiles/Test.dir/build.make CMakeFiles/Test.dir/Testing/NumberListTester.cpp.i
+.PHONY : Testing/NumberListTester.cpp.i
+
+Testing/NumberListTester.s: Testing/NumberListTester.cpp.s
+
+.PHONY : Testing/NumberListTester.s
+
+# target to generate assembly for a file
+Testing/NumberListTester.cpp.s:
+	$(MAKE) -f CMakeFiles/Test.dir/build.make CMakeFiles/Test.dir/Testing/NumberListTester.cpp.s
+.PHONY : Testing/NumberListTester.cpp.s
 
 Testing/testMain.o: Testing/testMain.cpp.o
 
@@ -449,12 +530,21 @@ help:
 	@echo "... NumberList.o"
 	@echo "... NumberList.i"
 	@echo "... NumberList.s"
+	@echo "... Testing/CardTester.o"
+	@echo "... Testing/CardTester.i"
+	@echo "... Testing/CardTester.s"
+	@echo "... Testing/DeckTester.o"
+	@echo "... Testing/DeckTester.i"
+	@echo "... Testing/DeckTester.s"
 	@echo "... Testing/MenuOptionTester.o"
 	@echo "... Testing/MenuOptionTester.i"
 	@echo "... Testing/MenuOptionTester.s"
 	@echo "... Testing/MenuTester.o"
 	@echo "... Testing/MenuTester.i"
 	@echo "... Testing/MenuTester.s"
+	@echo "... Testing/NumberListTester.o"
+	@echo "... Testing/NumberListTester.i"
+	@echo "... Testing/NumberListTester.s"
 	@echo "... Testing/testMain.o"
 	@echo "... Testing/testMain.i"
 	@echo "... Testing/testMain.s"

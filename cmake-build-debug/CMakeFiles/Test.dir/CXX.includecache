@@ -72,6 +72,28 @@ algorithm
 cstdlib
 -
 
+/Users/kidma/CLionProjects/CS1440/Assn4/Testing/CardTester.cpp
+CardTester.hpp
+/Users/kidma/CLionProjects/CS1440/Assn4/Testing/CardTester.hpp
+../Card.hpp
+/Users/kidma/CLionProjects/CS1440/Assn4/Card.hpp
+vector
+-
+iostream
+-
+
+/Users/kidma/CLionProjects/CS1440/Assn4/Testing/CardTester.hpp
+
+/Users/kidma/CLionProjects/CS1440/Assn4/Testing/DeckTester.cpp
+iostream
+-
+DeckTester.hpp
+/Users/kidma/CLionProjects/CS1440/Assn4/Testing/DeckTester.hpp
+../Deck.hpp
+/Users/kidma/CLionProjects/CS1440/Assn4/Deck.hpp
+
+/Users/kidma/CLionProjects/CS1440/Assn4/Testing/DeckTester.hpp
+
 /Users/kidma/CLionProjects/CS1440/Assn4/Testing/MenuOptionTester.cpp
 MenuOptionTester.h
 /Users/kidma/CLionProjects/CS1440/Assn4/Testing/MenuOptionTester.h
@@ -94,6 +116,16 @@ iostream
 
 /Users/kidma/CLionProjects/CS1440/Assn4/Testing/MenuTester.h
 
+/Users/kidma/CLionProjects/CS1440/Assn4/Testing/NumberListTester.cpp
+iostream
+-
+NumberListTester.hpp
+/Users/kidma/CLionProjects/CS1440/Assn4/Testing/NumberListTester.hpp
+../NumberList.hpp
+/Users/kidma/CLionProjects/CS1440/Assn4/NumberList.hpp
+
+/Users/kidma/CLionProjects/CS1440/Assn4/Testing/NumberListTester.hpp
+
 /Users/kidma/CLionProjects/CS1440/Assn4/Testing/testMain.cpp
 iostream
 -
@@ -103,6 +135,12 @@ MenuOptionTester.h
 /Users/kidma/CLionProjects/CS1440/Assn4/Testing/MenuOptionTester.h
 MenuTester.h
 /Users/kidma/CLionProjects/CS1440/Assn4/Testing/MenuTester.h
+NumberListTester.hpp
+/Users/kidma/CLionProjects/CS1440/Assn4/Testing/NumberListTester.hpp
+CardTester.hpp
+/Users/kidma/CLionProjects/CS1440/Assn4/Testing/CardTester.hpp
+DeckTester.hpp
+/Users/kidma/CLionProjects/CS1440/Assn4/Testing/DeckTester.hpp
 
 /Users/kidma/CLionProjects/CS1440/Assn4/UserInterface.cpp
 UserInterface.h

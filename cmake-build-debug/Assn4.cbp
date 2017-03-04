@@ -158,6 +158,18 @@
 			<Option target="Test"/>
 			<Option target="Bingo"/>
 		</Unit>
+		<Unit filename="/Users/kidma/CLionProjects/CS1440/Assn4/Testing/CardTester.cpp">
+			<Option target="Test"/>
+		</Unit>
+		<Unit filename="/Users/kidma/CLionProjects/CS1440/Assn4/Testing/CardTester.hpp">
+			<Option target="Test"/>
+		</Unit>
+		<Unit filename="/Users/kidma/CLionProjects/CS1440/Assn4/Testing/DeckTester.cpp">
+			<Option target="Test"/>
+		</Unit>
+		<Unit filename="/Users/kidma/CLionProjects/CS1440/Assn4/Testing/DeckTester.hpp">
+			<Option target="Test"/>
+		</Unit>
 		<Unit filename="/Users/kidma/CLionProjects/CS1440/Assn4/Testing/MenuOptionTester.cpp">
 			<Option target="Test"/>
 		</Unit>
@@ -168,6 +180,12 @@
 			<Option target="Test"/>
 		</Unit>
 		<Unit filename="/Users/kidma/CLionProjects/CS1440/Assn4/Testing/MenuTester.h">
+			<Option target="Test"/>
+		</Unit>
+		<Unit filename="/Users/kidma/CLionProjects/CS1440/Assn4/Testing/NumberListTester.cpp">
+			<Option target="Test"/>
+		</Unit>
+		<Unit filename="/Users/kidma/CLionProjects/CS1440/Assn4/Testing/NumberListTester.hpp">
 			<Option target="Test"/>
 		</Unit>
 		<Unit filename="/Users/kidma/CLionProjects/CS1440/Assn4/Testing/testMain.cpp">

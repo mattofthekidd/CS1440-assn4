@@ -273,6 +273,78 @@ CMakeFiles/Test.dir/Testing/MenuOptionTester.cpp.o.provides: CMakeFiles/Test.dir
 CMakeFiles/Test.dir/Testing/MenuOptionTester.cpp.o.provides.build: CMakeFiles/Test.dir/Testing/MenuOptionTester.cpp.o
 
 
+CMakeFiles/Test.dir/Testing/CardTester.cpp.o: CMakeFiles/Test.dir/flags.make
+CMakeFiles/Test.dir/Testing/CardTester.cpp.o: ../Testing/CardTester.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/kidma/CLionProjects/CS1440/Assn4/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/Test.dir/Testing/CardTester.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Test.dir/Testing/CardTester.cpp.o -c /Users/kidma/CLionProjects/CS1440/Assn4/Testing/CardTester.cpp
+
+CMakeFiles/Test.dir/Testing/CardTester.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Test.dir/Testing/CardTester.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/kidma/CLionProjects/CS1440/Assn4/Testing/CardTester.cpp > CMakeFiles/Test.dir/Testing/CardTester.cpp.i
+
+CMakeFiles/Test.dir/Testing/CardTester.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Test.dir/Testing/CardTester.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/kidma/CLionProjects/CS1440/Assn4/Testing/CardTester.cpp -o CMakeFiles/Test.dir/Testing/CardTester.cpp.s
+
+CMakeFiles/Test.dir/Testing/CardTester.cpp.o.requires:
+
+.PHONY : CMakeFiles/Test.dir/Testing/CardTester.cpp.o.requires
+
+CMakeFiles/Test.dir/Testing/CardTester.cpp.o.provides: CMakeFiles/Test.dir/Testing/CardTester.cpp.o.requires
+	$(MAKE) -f CMakeFiles/Test.dir/build.make CMakeFiles/Test.dir/Testing/CardTester.cpp.o.provides.build
+.PHONY : CMakeFiles/Test.dir/Testing/CardTester.cpp.o.provides
+
+CMakeFiles/Test.dir/Testing/CardTester.cpp.o.provides.build: CMakeFiles/Test.dir/Testing/CardTester.cpp.o
+
+
+CMakeFiles/Test.dir/Testing/NumberListTester.cpp.o: CMakeFiles/Test.dir/flags.make
+CMakeFiles/Test.dir/Testing/NumberListTester.cpp.o: ../Testing/NumberListTester.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/kidma/CLionProjects/CS1440/Assn4/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/Test.dir/Testing/NumberListTester.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Test.dir/Testing/NumberListTester.cpp.o -c /Users/kidma/CLionProjects/CS1440/Assn4/Testing/NumberListTester.cpp
+
+CMakeFiles/Test.dir/Testing/NumberListTester.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Test.dir/Testing/NumberListTester.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/kidma/CLionProjects/CS1440/Assn4/Testing/NumberListTester.cpp > CMakeFiles/Test.dir/Testing/NumberListTester.cpp.i
+
+CMakeFiles/Test.dir/Testing/NumberListTester.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Test.dir/Testing/NumberListTester.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/kidma/CLionProjects/CS1440/Assn4/Testing/NumberListTester.cpp -o CMakeFiles/Test.dir/Testing/NumberListTester.cpp.s
+
+CMakeFiles/Test.dir/Testing/NumberListTester.cpp.o.requires:
+
+.PHONY : CMakeFiles/Test.dir/Testing/NumberListTester.cpp.o.requires
+
+CMakeFiles/Test.dir/Testing/NumberListTester.cpp.o.provides: CMakeFiles/Test.dir/Testing/NumberListTester.cpp.o.requires
+	$(MAKE) -f CMakeFiles/Test.dir/build.make CMakeFiles/Test.dir/Testing/NumberListTester.cpp.o.provides.build
+.PHONY : CMakeFiles/Test.dir/Testing/NumberListTester.cpp.o.provides
+
+CMakeFiles/Test.dir/Testing/NumberListTester.cpp.o.provides.build: CMakeFiles/Test.dir/Testing/NumberListTester.cpp.o
+
+
+CMakeFiles/Test.dir/Testing/DeckTester.cpp.o: CMakeFiles/Test.dir/flags.make
+CMakeFiles/Test.dir/Testing/DeckTester.cpp.o: ../Testing/DeckTester.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/kidma/CLionProjects/CS1440/Assn4/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/Test.dir/Testing/DeckTester.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Test.dir/Testing/DeckTester.cpp.o -c /Users/kidma/CLionProjects/CS1440/Assn4/Testing/DeckTester.cpp
+
+CMakeFiles/Test.dir/Testing/DeckTester.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Test.dir/Testing/DeckTester.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/kidma/CLionProjects/CS1440/Assn4/Testing/DeckTester.cpp > CMakeFiles/Test.dir/Testing/DeckTester.cpp.i
+
+CMakeFiles/Test.dir/Testing/DeckTester.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Test.dir/Testing/DeckTester.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/kidma/CLionProjects/CS1440/Assn4/Testing/DeckTester.cpp -o CMakeFiles/Test.dir/Testing/DeckTester.cpp.s
+
+CMakeFiles/Test.dir/Testing/DeckTester.cpp.o.requires:
+
+.PHONY : CMakeFiles/Test.dir/Testing/DeckTester.cpp.o.requires
+
+CMakeFiles/Test.dir/Testing/DeckTester.cpp.o.provides: CMakeFiles/Test.dir/Testing/DeckTester.cpp.o.requires
+	$(MAKE) -f CMakeFiles/Test.dir/build.make CMakeFiles/Test.dir/Testing/DeckTester.cpp.o.provides.build
+.PHONY : CMakeFiles/Test.dir/Testing/DeckTester.cpp.o.provides
+
+CMakeFiles/Test.dir/Testing/DeckTester.cpp.o.provides.build: CMakeFiles/Test.dir/Testing/DeckTester.cpp.o
+
+
 # Object files for target Test
 Test_OBJECTS = \
 "CMakeFiles/Test.dir/Testing/testMain.cpp.o" \
@@ -283,7 +355,10 @@ Test_OBJECTS = \
 "CMakeFiles/Test.dir/MenuOption.cpp.o" \
 "CMakeFiles/Test.dir/Menu.cpp.o" \
 "CMakeFiles/Test.dir/Testing/MenuTester.cpp.o" \
-"CMakeFiles/Test.dir/Testing/MenuOptionTester.cpp.o"
+"CMakeFiles/Test.dir/Testing/MenuOptionTester.cpp.o" \
+"CMakeFiles/Test.dir/Testing/CardTester.cpp.o" \
+"CMakeFiles/Test.dir/Testing/NumberListTester.cpp.o" \
+"CMakeFiles/Test.dir/Testing/DeckTester.cpp.o"
 
 # External object files for target Test
 Test_EXTERNAL_OBJECTS =
@@ -297,9 +372,12 @@ Test: CMakeFiles/Test.dir/MenuOption.cpp.o
 Test: CMakeFiles/Test.dir/Menu.cpp.o
 Test: CMakeFiles/Test.dir/Testing/MenuTester.cpp.o
 Test: CMakeFiles/Test.dir/Testing/MenuOptionTester.cpp.o
+Test: CMakeFiles/Test.dir/Testing/CardTester.cpp.o
+Test: CMakeFiles/Test.dir/Testing/NumberListTester.cpp.o
+Test: CMakeFiles/Test.dir/Testing/DeckTester.cpp.o
 Test: CMakeFiles/Test.dir/build.make
 Test: CMakeFiles/Test.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/kidma/CLionProjects/CS1440/Assn4/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Linking CXX executable Test"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/kidma/CLionProjects/CS1440/Assn4/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Linking CXX executable Test"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Test.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -316,6 +394,9 @@ CMakeFiles/Test.dir/requires: CMakeFiles/Test.dir/MenuOption.cpp.o.requires
 CMakeFiles/Test.dir/requires: CMakeFiles/Test.dir/Menu.cpp.o.requires
 CMakeFiles/Test.dir/requires: CMakeFiles/Test.dir/Testing/MenuTester.cpp.o.requires
 CMakeFiles/Test.dir/requires: CMakeFiles/Test.dir/Testing/MenuOptionTester.cpp.o.requires
+CMakeFiles/Test.dir/requires: CMakeFiles/Test.dir/Testing/CardTester.cpp.o.requires
+CMakeFiles/Test.dir/requires: CMakeFiles/Test.dir/Testing/NumberListTester.cpp.o.requires
+CMakeFiles/Test.dir/requires: CMakeFiles/Test.dir/Testing/DeckTester.cpp.o.requires
 
 .PHONY : CMakeFiles/Test.dir/requires
 

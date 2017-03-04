@@ -7,6 +7,9 @@
 
 #include "MenuOptionTester.h"
 #include "MenuTester.h"
+#include "NumberListTester.hpp"
+#include "CardTester.hpp"
+#include "DeckTester.hpp"
 
 int main()
 {
@@ -16,6 +19,9 @@ int main()
     srand(seed);
 
     // TODO: Test your components
+    NumberListTester numberListTester();
+    CardTester cardTester();
+    DeckTester deckTester();
 
     MenuOptionTester menuOptionTester;
     menuOptionTester.testConstructorAndGetter();
